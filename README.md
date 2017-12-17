@@ -1,4 +1,4 @@
-# Test - Purgecss + React
+# Test: Purgecss + React
 
 | Thing | Version |
 | ----- | ------- |
@@ -11,7 +11,7 @@
 
 The issue is Purgecss will not detect some class names being used. It then strips those styles out of the produced bundle.
 
-Checkout the `src/entry.js` file. There's a single, simple, pure React component that is mounted to the DOM. The `className` is using template literals to calculate the final value. This is where it seems Purgecss is having an issue detecting what's valid or not. See the comment in that file.
+Check out the `src/entry.js` file. There's a single, simple, pure React component that is mounted to the DOM. The `className` is using template literals to calculate the final value. This is where it seems Purgecss is having an issue detecting what's valid or not. See the comment in that file.
 
 
 ## Installation & Usage
