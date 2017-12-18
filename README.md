@@ -12,6 +12,7 @@
 * git clone this repo
 * cd `purgecss-react-test`
 * npm i
+* open `src/entry.js` and remove the comment (it's the same comment as the example below)
 * npm run build
 * open the generated CSS file in the `dist` folder to see the output
 
@@ -30,6 +31,9 @@ const Test = () => {
   const bg = 'bg-blue';
 
   /*
+    NOTE: Remove this comment before running the code.
+    Purgecss will pick up the word 'purple' in this comment and not reproduce the error.
+    ------------------------------------------------------------------------------------
     The 'purple' class is clearly used here but Purgecss will strip it out.
     The issue seems to be the combination of {` characters.
     If you put a space before 'purple', Purgecss will detect it and leave it in.
