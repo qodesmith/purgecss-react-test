@@ -1,5 +1,7 @@
 # Test: Purgecss + React
 
+Issue: https://github.com/FullHuman/purgecss-webpack-plugin/issues/7
+
 | Thing | Version |
 | ----- | ------- |
 | Node | 9.2.0 |
